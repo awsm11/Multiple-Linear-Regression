@@ -16,7 +16,7 @@ def input_function(w1, w2, w3, w4, b):
 
     price_prediction = w1 * size + w2 * num_bedrooms + w3 * num_floors + w4 * age_home + b
 
-    print(price_prediction)
+    print("Price of your house(1000s dollars):", price_prediction)
 
 
 
