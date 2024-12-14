@@ -38,7 +38,7 @@ for i in range(a):
     x_2.append((excel_set["Num of Bedroom"][i] - x_2_mean) / (excel_set["Max_x_2"][0] - excel_set["Min_x_2"][0]) )
     x_3.append((excel_set["Num of Floors"][i] - x_3_mean) / (excel_set["Max_x_3"][0] - excel_set["Min_x_3"][0]))
     x_4.append((excel_set["Age of Home"][i] - x_4_mean) / (excel_set["Max_x_4"][0] - excel_set["Min_x_4"][0]))
-    y_1.append(excel_set["Price"][i])
+    y_1.append(excel_set["Price 1000s dollars"][i])
 
 
 excel_data = np.array([x_1, x_2, x_3, x_4])
