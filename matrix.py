@@ -40,11 +40,13 @@ for i in range(a):
     x_4.append((excel_set["Age of Home"][i] - x_4_mean) / (excel_set["Max_x_4"][0] - excel_set["Min_x_4"][0]))
     y_1.append(excel_set["Price 1000s dollars"][i])
 
-
+# Make up matrix form
 excel_data = np.array([x_1, x_2, x_3, x_4])
 
+# Transpose of matrix
 excel_data = np.transpose(excel_data)
 
 y_1 = np.array(y_1)
 
+# Quantities of data and features
 m, n = excel_data.shape
