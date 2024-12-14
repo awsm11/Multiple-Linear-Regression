@@ -1,5 +1,5 @@
-This algorithm allows you to estimate your target data using a gradient descent model, which establishes a statistical relationship 
-between the given data tables or arrays read from an Excel file.
+This algorithm allows you to estimate your target data using a gradient descent model, which establishes a statistical 
+relationship between the given data tables or arrays read from an Excel file.
 
 The code is representing the Linear Regression for multiple variables.
 
